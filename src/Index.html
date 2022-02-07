@@ -1,0 +1,47 @@
+<!--
+    Date:07/02/2022
+    Author:Yash Agrawal
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <title>Product Table</title>
+  </head>
+  <body>
+    <div id="main">
+      <table>
+        <tr>
+          <td>Product Id</td>
+          <td><input type="text" id="productId"/></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Product Name</td>
+          <td><input type="text" id="productName"/></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Product Price</td>
+          <td><input type="text" id="productPrice"/></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" value="Add Product" onclick="submitData()"/></td>
+        </tr>
+      </table>
+        <table id="tableData">
+          <tr>
+              <th>Product Id</th>
+              <th>Product Name</th>
+              <th>Product Price</th>
+          </tr>
+      </table>
+      </div>
+    </div>
+  </body>
+</html>
